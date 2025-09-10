@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carrossel Drive</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{display:flex;justify-content:center;align-items:center;min-height:100vh;background:#000}
+.carousel{width:90%;max-width:900px;overflow:hidden;border-radius:12px;position:relative}
+.slides{display:flex;width:700%;animation:slide 35s infinite}
+.slide{width:100%;flex-shrink:0}
+.slide img{width:100%;display:block}
+@keyframes slide{
+  0%{transform:translateX(0)}
+  12%{transform:translateX(0)}
+  14%{transform:translateX(-100%)}
+  26%{transform:translateX(-100%)}
+  28%{transform:translateX(-200%)}
+  40%{transform:translateX(-200%)}
+  42%{transform:translateX(-300%)}
+  54%{transform:translateX(-300%)}
+  56%{transform:translateX(-400%)}
+  68%{transform:translateX(-400%)}
+  70%{transform:translateX(-500%)}
+  82%{transform:translateX(-500%)}
+  84%{transform:translateX(-600%)}
+  100%{transform:translateX(-600%)}
+}
+</style>
+</head>
+<body>
+<div class="carousel">
+  <div class="slides">
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1KvzHdeq95URBsOjh_WDQubGHcMgdQLyw"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1NMsQLFoywdrNFLbwDYkNXgoQBIQqRDEW"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1O0I4JV6yrO9jAwtvfXcDs4wG-wJJArjH"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1fTnnCRqNhLTmSmxoItajeG_VeO_BNe6R"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1lPosNxoQZ1p91xWhmX-G5CgYs7cn1D0Y"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1m08Ip_GfZvDAjNm6u_6kHckwJJ9Rtem1"></div>
+    <div class="slide"><img src="https://drive.google.com/uc?export=view&id=1qUeEIctinp3Wng4ryU7Pi0wq5AYBeqMZ"></div>
+  </div>
+</div>
+</body>
+</html>
